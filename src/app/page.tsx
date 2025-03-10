@@ -6,6 +6,7 @@ import Header from "./components/layout/Header";
 import TecSection from "./components/layout/tecSection";
 import WorkSection from "./components/layout/works";
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
 
      // Estado para controlar si el usuario ha hecho scroll
@@ -114,7 +115,7 @@ export default function Home() {
                 <Image alt="" src="/usuario.png" width={20} height={20} className="block dark:hidden" /> 
                 <Image alt="" src="/usuarioWhite.png" width={20} height={20} className="hidden dark:block" /> 
                </span>
-               <a href="/#sobre-mi">Sobre Mí</a>
+               <Link href="/#sobre-mi">Sobre Mí</Link>
             </button>
             </div>
             
