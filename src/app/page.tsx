@@ -69,7 +69,7 @@ export default function Home() {
           <Header activeSection={activeSection} />
         </div>
         <main className="container mx-auto grid justify-item-center ">
-          <section id="inicio" className=" max-w-xl  grid mx-auto mt-8 md:mt-20  ">
+          <section id="inicio" className=" md:max-w-xl w-11/12 grid mx-auto mt-8 md:mt-20  ">
             <div className="flex items-center space-x-4   ">
               <picture className=" flex rounded-full justify-center overflow-hidden w-[70px] h-[70px] ">
                 <img
@@ -120,7 +120,7 @@ export default function Home() {
             </div>
             
           </section>
-          <section className=" w-full mt-16 mb-7 flex  md:mt-10    ">
+          <section className=" w-full mt-16 mb-7 flex  md:mt-10 justify-center    ">
             <TecSection />
           </section>
 
