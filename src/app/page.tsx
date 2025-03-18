@@ -92,7 +92,7 @@ export default function Home() {
             <h1 className=" text-4xl font-black text-[#111111] dark:text-[#ffffff] mb-6 mt-8 ">
               Hey, Soy MISDI
             </h1>
-            <p className=" text-[#111111] dark:text-[#ffffff] text-xl text-pretty w-[90%]  ">
+            <p className=" text-[#111111] dark:text-[#ffffff] text-xl text-pretty w-[95%]  ">
               Soy un apasionado del{" "}
               <strong className="text-[#56e356] ">
                 desarrollo web de Colombia, especializado en front-end
