@@ -62,7 +62,7 @@ export default function Home() {
     <div className=" grid grid-cols-1  justify-items-center  ">
       <div className={`${widthContent} pt-4 w-full `}>
         <div
-          className={` w-max   sticky top-2 transition-colors duration-100 rounded-[20px] py-2 px-5 z-10 mx-auto bg-opacity-60 ${
+          className={` w-max   sticky top-4 transition-colors duration-100 rounded-[20px] py-2 px-5 z-10 mx-auto bg-opacity-60 ${
             hasScrolled ? 'bg-white backdrop-blur-sm shadow-md  ' : 'bg-transparent'
             } `}
         >
@@ -92,7 +92,7 @@ export default function Home() {
             <h1 className=" text-4xl font-black text-[#111111] dark:text-[#ffffff] mb-6 mt-8 ">
               Hey, Soy MISDI
             </h1>
-            <p className=" text-[#111111] dark:text-[#ffffff] text-xl text-pretty ">
+            <p className=" text-[#111111] dark:text-[#ffffff] text-xl text-pretty w-[90%]  ">
               Soy un apasionado del{" "}
               <strong className="text-[#56e356] ">
                 desarrollo web de Colombia, especializado en front-end
