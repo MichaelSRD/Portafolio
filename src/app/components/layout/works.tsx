@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function WorkSection(){
     return (
@@ -31,16 +32,20 @@ export default function WorkSection(){
             </div>
             <div className="flex space-x-4 w-full pl-4
              text-[#111111] pb-4 " >
+            <Link  target=" _blank " href="https://github.com/MichaelSRD/Country-Page-Nextjs" >
             <button className=" hover:bg-[#ffffff]  flex items-center space-x-2 px-3 py-2 border border-[#ffffff] rounded-xl " >
                 <img src="/github.png" alt="icono de github"
                 className=" w-[25px] " />
                 <p>Code</p>
             </button>
+            </Link>
+            <Link target=" _blank "  href="https://dev-country-page.netlify.app/">
             <button className=" hover:bg-[#ffffff]  flex items-center space-x-2 px-3 py-2 border border-[#ffffff] rounded-xl " >
                 <img src="/enlace.png" alt="icono de github"
                 className=" w-[20px] " />
                 <p>Preview</p>
             </button>
+            </Link>
             </div>
             
             </div>
@@ -60,16 +65,20 @@ export default function WorkSection(){
             </div>
             <div className="flex space-x-4 w-full pl-4
              text-[#111111] pb-4 " >
+            <Link   target=" _blank "  href="https://github.com/MichaelSRD/webcatwiki" >
             <button className=" hover:bg-[#ffffff]  flex items-center space-x-2 px-3 py-2 border border-[#ffffff] rounded-xl " >
                 <img src="/github.png" alt="icono de github"
                 className=" w-[25px] " />
                 <p>Code</p>
             </button>
+            </Link >
+            <Link   target=" _blank "   href="https://catwikidev.netlify.app/">
             <button className=" hover:bg-[#ffffff]  flex items-center space-x-2 px-3 py-2 border border-[#ffffff] rounded-xl " >
                 <img src="/enlace.png" alt="icono de github"
                 className=" w-[20px] " />
                 <p>Preview</p>
             </button>
+            </Link>
             </div>
             </div>
             <div className=" space-y-3 mb-4 bg-[#56e356] bg-opacity-75  rounded-[1rem]  text-center flex w-full flex-col  items-center " >
@@ -93,16 +102,20 @@ export default function WorkSection(){
             </div>
             <div className="flex space-x-4 w-full pl-4
              text-[#111111]  pb-4" >
+            <Link  target=" _blank "  href="https://github.com/MichaelSRD/Translateapp">
             <button className=" hover:bg-[#ffffff]  flex items-center space-x-2 px-3 py-2 border border-[#ffffff] rounded-xl " >
                 <img src="/github.png" alt="icono de github"
                 className=" w-[25px] " />
                 <p>Code</p>
             </button>
+            </Link>
+            <Link  target=" _blank "  href="https://apptranslatedev.netlify.app/">
             <button className=" hover:bg-[#ffffff]  flex items-center space-x-2 px-3 py-2 border border-[#ffffff] rounded-xl " >
                 <img src="/enlace.png" alt="icono de github"
                 className=" w-[20px] " />
                 <p>Preview</p>
             </button>
+            </Link>
             </div>
             </div>
         </div>
