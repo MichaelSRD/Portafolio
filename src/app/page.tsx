@@ -90,7 +90,7 @@ export default function Home() {
             </div>
 
             <h1 className=" text-4xl font-black text-[#111111] dark:text-[#ffffff] mb-6 mt-8 ">
-              Hey, Soy MISDI
+              Hey, Soy Michael
             </h1>
             <p className=" text-[#111111] dark:text-[#ffffff] text-xl text-pretty w-[95%]  ">
               Soy un apasionado del{" "}
